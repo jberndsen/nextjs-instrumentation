@@ -1,0 +1,30 @@
+{
+  "npmScope": "nextjs-instrumentation",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "frontend": {
+      "tags": []
+    },
+    "analytics": {
+      "tags": []
+    },
+    "event-ingester": {
+      "tags": []
+    },
+    "instrumentation": {
+      "tags": []
+    },
+    "logging": {
+      "tags": []
+    }
+  }
+}
